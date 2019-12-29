@@ -1,6 +1,8 @@
 # StickerWar
 Web dump for the greatest collection of sticker overloaded snaps
 
+Check it out at [snapwars.github.io/StickerWar](https://snapwars.github.io/StickerWar/#/)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
