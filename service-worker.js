@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/StickerWar/precache-manifest.a8db67ac31db06807a34b356e40d1d08.js"
+  "/StickerWar/precache-manifest.15122a7b61a2b11b0c0715ab3fe19fcd.js"
 );
 
 self.addEventListener('message', (event) => {
