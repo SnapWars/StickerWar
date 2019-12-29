@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 
   height: 100%;
   min-height: 100vh;
-  with: 100vw;
+  width: 100vw;
 
   ${props => props.customStyles}
 `;
