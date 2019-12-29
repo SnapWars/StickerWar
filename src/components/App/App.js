@@ -37,7 +37,7 @@ const GlobalStyles = createGlobalStyle`
 
 const App = () => {
   return (
-    <Router basename="/StickerWar">
+    <Router basename="/">
       <Wrapper>
         <GlobalStyles />
         <GlobalNavigation/>
