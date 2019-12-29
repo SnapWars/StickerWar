@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f19453c10e5a900118155a006c8cae6f",
+    "revision": "cae45a32bc29d5f08c338463f8743123",
     "url": "/StickerWar/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/StickerWar/static/js/2.cc287129.chunk.js.LICENSE"
   },
   {
-    "revision": "3594788f3a31bdbbf55c",
-    "url": "/StickerWar/static/js/main.ec0d2e2b.chunk.js"
+    "revision": "9539de529a8c990b3fe3",
+    "url": "/StickerWar/static/js/main.3d9d05fd.chunk.js"
   },
   {
     "revision": "9817b144d23ff3bc4513",

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/StickerWar/static/js/main.ec0d2e2b.chunk.js",
-    "main.js.map": "/StickerWar/static/js/main.ec0d2e2b.chunk.js.map",
+    "main.js": "/StickerWar/static/js/main.3d9d05fd.chunk.js",
+    "main.js.map": "/StickerWar/static/js/main.3d9d05fd.chunk.js.map",
     "runtime-main.js": "/StickerWar/static/js/runtime-main.8c575c7f.js",
     "runtime-main.js.map": "/StickerWar/static/js/runtime-main.8c575c7f.js.map",
     "static/js/2.cc287129.chunk.js": "/StickerWar/static/js/2.cc287129.chunk.js",
     "static/js/2.cc287129.chunk.js.map": "/StickerWar/static/js/2.cc287129.chunk.js.map",
     "index.html": "/StickerWar/index.html",
-    "precache-manifest.5ee41b03376ed7485d316dfe608783e9.js": "/StickerWar/precache-manifest.5ee41b03376ed7485d316dfe608783e9.js",
+    "precache-manifest.a8db67ac31db06807a34b356e40d1d08.js": "/StickerWar/precache-manifest.a8db67ac31db06807a34b356e40d1d08.js",
     "service-worker.js": "/StickerWar/service-worker.js",
     "static/js/2.cc287129.chunk.js.LICENSE": "/StickerWar/static/js/2.cc287129.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.8c575c7f.js",
     "static/js/2.cc287129.chunk.js",
-    "static/js/main.ec0d2e2b.chunk.js"
+    "static/js/main.3d9d05fd.chunk.js"
   ]
 }
