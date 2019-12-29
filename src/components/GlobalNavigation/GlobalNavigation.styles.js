@@ -1,10 +1,12 @@
 import styled from 'styled-components';
-import { Colors } from '../../themes';
+import { Colors, Styles } from '../../themes';
 
 export const Wrapper = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 2.5em;
+  height: ${Styles.globalNavigationHeight};
 
   background-color: ${Colors.white};
 `;
