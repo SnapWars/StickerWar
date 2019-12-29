@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/StickerWars/static/js/main.b57f3990.chunk.js",
+    "main.js.map": "/StickerWars/static/js/main.b57f3990.chunk.js.map",
+    "runtime-main.js": "/StickerWars/static/js/runtime-main.1b5453cf.js",
+    "runtime-main.js.map": "/StickerWars/static/js/runtime-main.1b5453cf.js.map",
+    "static/js/2.ec445bb0.chunk.js": "/StickerWars/static/js/2.ec445bb0.chunk.js",
+    "static/js/2.ec445bb0.chunk.js.map": "/StickerWars/static/js/2.ec445bb0.chunk.js.map",
+    "index.html": "/StickerWars/index.html",
+    "precache-manifest.7b0ccedb879c91b4c789c84f6b972304.js": "/StickerWars/precache-manifest.7b0ccedb879c91b4c789c84f6b972304.js",
+    "service-worker.js": "/StickerWars/service-worker.js",
+    "static/js/2.ec445bb0.chunk.js.LICENSE": "/StickerWars/static/js/2.ec445bb0.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b5453cf.js",
+    "static/js/2.ec445bb0.chunk.js",
+    "static/js/main.b57f3990.chunk.js"
+  ]
+}
