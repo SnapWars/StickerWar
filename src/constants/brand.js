@@ -6,4 +6,9 @@ export const brandSizes = {
 
 export const brandVariants = {
   ORIGINAL: 'original',
+  PERFECT: 'perfect',
+  HEADSHOT: 'headshot',
+  LIMO: 'limo',
+  MEDITATE: 'meditate',
+  SCHEMING: 'scheming',
 };
