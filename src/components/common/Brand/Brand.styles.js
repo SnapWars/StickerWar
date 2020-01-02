@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
         return '15em';
       }
       default: {
-        return '5em';
+        return '3em';
       }
     };
   }};

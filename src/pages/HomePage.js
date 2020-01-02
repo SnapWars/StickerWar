@@ -20,7 +20,7 @@ const HomePage = () => {
         variant={brandVariants.ORIGINAL}
       />
       <Title>
-        SnapWars
+        StickerWar
       </Title>
     </PageWrapper>
   );
