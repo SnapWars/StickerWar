@@ -14,7 +14,7 @@ const Brand = ({
       size={size}
       customStyles={customStyles}
     >
-      <S.Image src={Images.brandOriginal}/>
+      <S.Image src={Images.brand[variant]}/>
     </S.Wrapper>
   )
 };

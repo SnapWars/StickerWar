@@ -1,4 +1,4 @@
-const globalNavigationHeight = '2.5em';
+const globalNavigationHeight = '3em';
 
 export default {
   globalNavigationHeight,

@@ -2,15 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import * as S from './GlobalNavigation.styles';
 import routes from './routes';
+import Brand from '../common/Brand';
+import { brandSizes, brandVariants } from '../../constants/brand';
 
 const NonAuthRoutes = [
   {
-    label: 'home',
-    to: routes.HOME,
-  },
-  {
     label: 'gallery',
     to: routes.GALLERY,
+  },
+  {
+    label: 'home',
+    isBrand: true,
+    to: routes.HOME,
   },
   {
     label: 'login',
@@ -24,11 +27,19 @@ const GlobalNavigation = () => {
       <S.InnerWrapper>
         {
           NonAuthRoutes.map(route => (
-            <S.Tab key={route.label}>
+            route.isBrand ?
               <Link to={route.to}>
-                {route.label}
+                <Brand
+                  size={brandSizes.SMALL}
+                  variant={brandVariants.SCHEMING}
+                />
               </Link>
-            </S.Tab>
+              :
+              <S.Tab key={route.label}>
+                <Link to={route.to}>
+                  {route.label}
+                </Link>
+              </S.Tab>
           ))
         }
       </S.InnerWrapper>
