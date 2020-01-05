@@ -28,7 +28,9 @@ const GlobalNavigation = () => {
         {
           NonAuthRoutes.map(route => (
             route.isBrand ?
-              <Link to={route.to}>
+              <Link
+                key={route.label}
+                to={route.to}>
                 <Brand
                   size={brandSizes.SMALL}
                   variant={brandVariants.SCHEMING}
