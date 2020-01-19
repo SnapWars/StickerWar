@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
+import { Fonts } from '../themes';
 import { PageWrapper, Brand } from '../components/common';
 import { brandSizes, brandVariants } from '../constants/brand';
 
@@ -9,7 +10,7 @@ const pageWrappeStyles = css`
 `;
 
 const Title = styled.div`
-  font-size: 5em;
+  font-size: ${Fonts.sizeTitle};
 `;
 
 const HomePage = () => {

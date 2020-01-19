@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import * as S from './GlobalNavigation.styles';
 import routes from './routes';
-import Brand from '../common/Brand';
+import { Brand } from '../common';
 import { brandSizes, brandVariants } from '../../constants/brand';
 
 const NonAuthRoutes = [
@@ -28,7 +28,9 @@ const GlobalNavigation = () => {
         {
           NonAuthRoutes.map(route => (
             route.isBrand ?
-              <Link to={route.to}>
+              <Link
+                key={route.label}
+                to={route.to}>
                 <Brand
                   size={brandSizes.SMALL}
                   variant={brandVariants.SCHEMING}
