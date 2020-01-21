@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Colors, Styles } from '../../themes';
 
 export const Wrapper = styled.div`
+  z-index: 999;
   display: flex;
   justify-content: center;
   align-items: center;

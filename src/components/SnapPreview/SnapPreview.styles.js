@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import { Styles } from '../../themes';
 
 export const Wrapper = styled.div`
   position: relative;
   display: flex;
 
-  width: 10em;
-  height: 19em;
+  ${Styles.includeSnapDimmensions('10em')}
+
   overflow: hidden;
 `;

@@ -5,8 +5,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Video = styled.video`
-width: 100%;
-height: auto;
+  width: 100%;
+  height: auto;
 `;
 
 export const Image = styled.img`
