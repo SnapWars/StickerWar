@@ -11,6 +11,7 @@ export default function SnapMedia({
 }) {
   return (
     <S.Wrapper>
+      testestest
       {
         isImageUrl(src) &&
         <S.Image
